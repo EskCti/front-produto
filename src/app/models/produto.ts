@@ -1,6 +1,6 @@
 export interface Produto {
-  id: number;
-  nome: string;
-  descricao?: string;
-  preco: number;
+  id: number | undefined | null;
+  nome: string | undefined | null;
+  descricao?: string | undefined | null;
+  preco: number | undefined | null;
 }
