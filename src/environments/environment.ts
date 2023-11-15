@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url: 'http://localhost:8080/api/'
+  url: 'http://apiproductesk.us-east-1.elasticbeanstalk.com/api/'
 };
 
 /*
